@@ -16,7 +16,7 @@ this.habilitar = (this.habilitar == true)? false : true;
 
 }
 constructor(private clienteService: ClienteService){}
-  
+
 ngOnInit(){
    this.clienteService.getClientes().subscribe(
     cliente => this.cliente = cliente
