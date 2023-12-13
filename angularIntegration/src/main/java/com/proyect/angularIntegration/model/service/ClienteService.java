@@ -1,7 +1,7 @@
-package com.example.proyectospringangular.model.service;
+package com.proyect.angularIntegration.model.service;
 
-import com.example.proyectospringangular.model.entity.ClientEntity;
-import com.example.proyectospringangular.model.repository.ClientRepository;
+import com.proyect.angularIntegration.model.entity.ClientEntity;
+import com.proyect.angularIntegration.model.repository.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-public class ClienteService implements IClienteService{
+public class ClienteService implements IClienteService {
 
     @Autowired
     private ClientRepository repository;

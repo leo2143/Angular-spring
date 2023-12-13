@@ -1,6 +1,6 @@
-package com.example.proyectospringangular.model.service;
+package com.proyect.angularIntegration.model.service;
 
-import com.example.proyectospringangular.model.entity.ClientEntity;
+import com.proyect.angularIntegration.model.entity.ClientEntity;
 
 import java.util.List;
 

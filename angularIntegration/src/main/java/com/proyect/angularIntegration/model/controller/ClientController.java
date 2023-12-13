@@ -1,8 +1,8 @@
-package com.example.proyectospringangular.model.controller;
+package com.proyect.angularIntegration.model.controller;
 
-import com.example.proyectospringangular.model.entity.ClientEntity;
-import com.example.proyectospringangular.model.service.ClienteService;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.proyect.angularIntegration.model.entity.ClientEntity;
+import com.proyect.angularIntegration.model.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

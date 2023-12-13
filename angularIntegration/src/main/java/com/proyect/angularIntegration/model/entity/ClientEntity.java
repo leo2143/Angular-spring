@@ -1,4 +1,4 @@
-package com.example.proyectospringangular.model.entity;
+package com.proyect.angularIntegration.model.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
