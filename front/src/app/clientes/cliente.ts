@@ -1,8 +1,7 @@
 export class  Cliente{
 id: number;
-nombre: string;
-apellido: string;
+name: string;
+surname: string;
 createAt: string;
 email:string;
-
 }
